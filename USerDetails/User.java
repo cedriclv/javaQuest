@@ -6,16 +6,16 @@ public class User {
 
     private Date birthday;
     private int size;
-//    private Address address;
-//    private List<Photo> photos = new ArrayList<Photo>();
+    private Address address;
+    private List<Photo> photos = new ArrayList<Photo>();
 
-    // public Address getAddress() {
-    //     return address;
-    // }
+    public Address getAddress() {
+         return address;
+    }
 
-    // public void setAddress(Address address) {
-    //     this.address = address;
-    // }
+    public void setAddress(Address address) {
+         this.address = address;
+    }
 
     public Date getBirthday() {
         return birthday;
@@ -33,11 +33,11 @@ public class User {
         this.size = size;
     }
 
-    // public List<Photo> getPhotos() {
-    //     return photos;
-    // }
+    public List<Photo> getPhotos() {
+         return photos;
+    }
 
-    // public void setPhotos(List<Photo> photos) {
-    //     this.photos = photos;
-    // }    
+    public void setPhotos(List<Photo> photos) {
+         this.photos = photos;
+    }    
 }
